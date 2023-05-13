@@ -5,6 +5,9 @@ import { colors } from '../styles/colors';
 import { CartIcon } from '../components/ui/CartIcon';
 
 const NavbarContainer = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;

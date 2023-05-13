@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { CartContext } from '../contexts/CardContext';
-import { Button } from '../components/ui/Button';
+import { Button, ButtonVariant } from '../components/ui/Button';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';
 import { PageContainer } from '../components/ui/PageContainer';
@@ -80,7 +80,7 @@ const Cart: React.FC = () => {
           </ul>
           <Text>Total: ${totalPrice.toFixed(2)}</Text>
           <ButtonContainer>
-            <Button onClick={clearCart} variant={'secondary'}>
+            <Button onClick={clearCart} variant={ButtonVariant.Secondary}>
               Clear
             </Button>
             <Button onClick={handleBuy}>Buy</Button>
