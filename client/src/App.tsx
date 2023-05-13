@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import { CartProvider } from './contexts/CardContext';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Cart from './pages/Cart';
+import { theme } from './styles/theme';
+import { GlobalStyles } from './styles/GlobalStyles';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
-function App() {
+const queryClient = new QueryClient();
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <CartProvider>
+        <QueryClientProvider client={queryClient}>
+          <BrowserRouter>
+            <Navbar />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/cart" element={<Cart />} />
+              </Routes>
+            </main>
+          </BrowserRouter>
+        </QueryClientProvider>
+      </CartProvider>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

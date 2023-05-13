@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product One",
+      "description": "This is a description of product one.",
+      "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=236&h=236",
+      "price": 49.99,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "1",
+          "author": "John Doe",
+          "text": "Great product!"
+        },
+        {
+          "id": "2",
+          "author": "Jane Doe",
+          "text": "Love this product!"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Product Two",
+      "description": "This is a description of product two.",
+      "image": "https://images.unsplash.com/photo-1567459045800-4d77c81fc3f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=236&h=236",
+      "price": 59.99,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "id": "3",
+          "author": "Steve Smith",
+          "text": "Amazing quality!"
+        },
+        {
+          "id": "4",
+          "author": "Linda Brown",
+          "text": "Worth every penny!"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Product Three",
+      "description": "This is a description of product three.",
+      "image": "https://images.unsplash.com/photo-1635538829734-ac648fb9fb5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=236&h=236",
+      "price": 39.99,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "id": "5",
+          "author": "Michael Johnson",
+          "text": "Decent product for the price."
+        },
+        {
+          "id": "6",
+          "author": "Emma Wilson",
+          "text": "Not bad, but could be better."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Product Four",
+      "description": "This is a description of product four.",
+      "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=236&h=236",
+      "price": 79.99,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "id": "7",
+          "author": "Sarah Thompson",
+          "text": "Highly recommended!"
+        },
+        {
+          "id": "8",
+          "author": "Mark Davis",
+          "text": "Great value for money!"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Product Five",
+      "description": "This is a description of product five.",
+      "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=236&h=236",
+      "price": 29.99,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "id": "9",
+          "author": "Jennifer Lee",
+          "text": "Nice product for the price."
+        },
+        {
+          "id": "10",
+          "author": "David Wilson",
+          "text": "Good quality and fast shipping!"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Product Six",
+      "description": "This is a description of product six.",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=236&h=236",
+      "price": 19.99,
+      "rating": 3.5,
+      "reviews": [
+        {
+          "id": "11",
+          "author": "Amanda White",
+          "text": "Average product, could be improved."
+        },
+        {
+          "id": "12",
+          "author": "Robert Johnson",
+          "text": "Not very satisfied with the quality."
+        }
+      ]
+    }
+  ]
+}
